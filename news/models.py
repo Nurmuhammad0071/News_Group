@@ -22,4 +22,4 @@ class News(models.Model):
     object = models.Manager()
 
 
-posts = News.object.filter(status="active")
+
